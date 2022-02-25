@@ -1,0 +1,172 @@
+
+body{
+    background-image: url("pictures/page2_pictures/page2background.jpg");
+    background-size: cover;
+    
+}
+
+
+
+.button{
+    
+    display: inline-block;
+  border-radius: 5px;
+  
+  border: black 5px solid;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 55px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  text-shadow: black;
+  height: 25px;
+
+}
+
+.animation {
+    animation: color-change 10s infinite;
+  }
+  
+  @keyframes color-change {
+    0% { color:white; }
+    50% { color: teal }
+    100% { color:white }
+  }
+
+.button span{
+    cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s; 
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.mini_background::-webkit-scrollbar{
+    display: none;
+}
+
+.mini_background{
+    overflow-y: scroll;
+    
+    
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.1);
+    
+    height: 100%;
+    width: 90%;
+
+    left: 0;
+    right: 0;
+    
+    top: 0;
+    
+    position: fixed;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+table{
+    margin: 0 auto;
+}
+
+
+
+div{
+    height: 300px;
+    width: 300px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    font-size: 50px;
+    margin-left: 10%;
+    color: white;
+    text-shadow: 2px 2px gray;
+    margin-bottom: 0%;
+}
+
+h4{
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 30px;
+    margin: 0 auto;
+    
+    color: white;
+}
+
+.in_block_elements{
+    margin-top: 0%;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-right: 15%;
+    font-size: 30px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
+ul{
+    margin-top: 0%;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-right: 40%;
+    font-size: 30px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    
+}
+li{
+    margin-left: 13%;
+}
+
+.header{
+    margin-left: 70%;
+    color: rgb(131, 0, 0);
+    text-shadow: 1px 1px gray;
+}
+
+.summary{
+    margin-left: 40%;
+    text-decoration: underline;
+    
+}
+.summary_text{
+   
+    margin-top: 0%;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-right: 15%;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    margin-bottom: 10%;
+}

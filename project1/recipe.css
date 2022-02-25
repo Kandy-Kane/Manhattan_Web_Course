@@ -1,0 +1,90 @@
+/*
+Frank Kane
+Web Programming
+Project 1
+Lemon Meringue Pie Design page 
+*/
+
+
+
+h1{
+ color: #A4A400;   
+ text-decoration: underline;
+ background-color: #F0F0F0;
+ letter-spacing: 0.25em;
+ text-align: left;
+ font-size: 18pt;
+}
+
+.main_header{
+    text-align: center;
+    font-size: 22pt;
+    
+
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+body{
+    background-color: white;
+    background-image: url("../project1/images/silverware.jpg");
+    background-repeat: repeat;
+    font-size: 11pt;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+a{
+    color: #A4A400; 
+}
+
+ul {
+    list-style-image: url('../project1/images/pie_bullet.png');
+  }
+  
+
+  .first{
+      list-style: none;
+      text-align: left;
+      margin-left: 0%;
+  }
+
+  .comments{
+    display:inline-block;margin-left:1em;
+      background-color: #FFFFA8;
+      font-style: italic;
+      width: 50%;
+      
+  }
+
+  .copyright{
+      text-align: right;
+      margin-right: 80%;
+    
+      font-family: monospace;
+  }
+
+  .strike{
+    text-decoration: line-through;
+  }

@@ -1,0 +1,163 @@
+
+body{
+    background-color: black;
+}
+
+
+.button{
+    
+    display: inline-block;
+  border-radius: 5px;
+  background-color: teal;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  text-shadow: black;
+
+}
+
+.dropdown::-webkit-scrollbar {
+  display: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+ columns: 2;
+  
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+ 
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  columns: 2;
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+
+.animation {
+    animation: color-change 10s infinite;
+  }
+  
+  @keyframes color-change {
+    0% { color:white; }
+    50% { color: teal }
+    100% { color:white }
+  }
+
+.button span{
+    cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s; 
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+.inside_background {
+    
+     margin: 0 auto;
+    background-image: url("pictures/background4.jpg");
+    height: 100%;
+    width: 95%;
+
+    left: 0;
+    right: 0;
+    
+    top: 0;
+    
+    position: fixed;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    
+
+  }
+
+  .main {
+      
+      
+      width: 30%;
+      margin-left: 5%;
+      float: left;
+      clear: left;
+      margin-right: 10%;
+      padding-top: 0%;
+      
+  }
+
+  .avatar {
+    
+    
+    float: left;
+    margin-left: 10%;
+    
+    
+}
+
+  tr{
+    border: 5px solid black; 
+  }
+
+  th{
+    border: 5px solid black; 
+  }
+
+  h1{
+      font-size: 90px;
+      color: white;
+      padding-top: 0%;
+  }
+
+  h3{
+      color: white;
+  }
+
+  h2{
+      color: white;
+  }

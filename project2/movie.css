@@ -1,0 +1,196 @@
+/* Frank Kane
+Web Programming
+Project 2
+TMNT Design Page  */
+
+
+
+
+
+
+
+
+body
+{
+    background-image: url(images/background.png);
+    font-size: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+#banner{
+    
+    margin: 0%;
+    padding: 0%;
+    background-image: url(images/bannerbg.png);
+    background-repeat:repeat-x;
+    height:  50px;
+    
+}
+
+#banner_image{
+    padding: 0%;
+    margin-left: 20%;
+    height:  50px;
+}
+
+#title{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24pt;
+    font-weight: bold;
+    text-shadow: 3px 3px #999999;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#main_section{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px gray solid;
+    border-radius: 20px;
+    float: left;
+    clear: right;
+    
+}
+
+#main_section_big{
+   
+    margin-left: 17%;
+
+}
+
+#rotten_30{
+    height: 83px;
+    width: 550px;
+    font-size: 48pt;
+    font-weight: bold;
+    background-image: url(images/rbg.png);
+    background-repeat: repeat-x;
+    border-top-left-radius: 15px;
+    color: red;
+    /* vertical-align: text-top; */
+    margin-left: 0%;
+    float: left;
+
+}
+
+#rotten_image{
+    height: 83px;
+    border-top-left-radius: 15px;
+    vertical-align: text-bottom;
+    margin-left: 0%;
+    float: left;
+}
+
+
+#main_image_box{
+    float: right;
+    border-top-right-radius: 15px;
+}
+
+#main_image{
+    float: right;
+    border-top-right-radius: 15px;
+}
+
+#description{
+    height: auto;
+    background-color: #A2B964;
+    width: 250px;
+    font-size: 8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    float: right;
+    text-indent: 10px;
+}
+
+dt{
+    font-weight: bold;
+}
+
+
+#reviews{
+    width: 530px;
+    height: 600px;
+    float: left;
+    padding: 2px;
+   
+}
+
+.quote{
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #E8DC9B;
+    border: solid gray;
+    border-radius: 10px;
+    padding:8px ;
+}
+
+.review_parent{
+    display: flex;
+    
+    
+    
+}
+
+
+
+.reviewer_info{
+    font-style: italic;
+
+}
+
+.reviewer_image{
+   
+    clear: right;
+}
+
+#column1{
+width: 47%;
+margin-left: 1%;
+float: left;
+clear: right;
+margin-bottom: 5px;
+
+}
+
+#column2{
+width: 47%;
+float: right;
+clear: right;
+margin-bottom: 5px;
+
+}
+
+#validators{
+
+    margin-top: 60%;
+    float: right;
+    opacity: 50%;
+    position:unset;
+    
+}
+
+#pages{
+    width: 100%;
+    background-color:#A2B964;
+    float: right;
+    font-weight: bold;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0%;
+}
+
+
+
+

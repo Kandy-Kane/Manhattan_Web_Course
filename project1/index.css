@@ -1,0 +1,22 @@
+/* Frank Kane
+Web Programming
+Project 1
+Index Design page */
+
+
+
+body{
+background-image: url(../project1/images/pie_background2.jpg);
+background-size:cover;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(248, 141, 0);
+}
+
+.links{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    color: white;
+}

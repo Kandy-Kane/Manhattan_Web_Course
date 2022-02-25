@@ -1,0 +1,306 @@
+
+#background{
+  height: 100%;
+  width: 100%;
+  background-image: url("pictures/page3_pictures/background.jpg");
+  background-size: cover;
+  filter: grayscale(100%);
+  /* transition: all 4s ease-in;  */
+  overflow-y: scroll;
+}
+
+#background_after{
+  height: 100%;
+  width: 100%;
+  background-image: url("pictures/page3_pictures/background.jpg");
+  background-size: cover;
+   transition: all 3s ease-in; 
+   overflow-y: scroll;
+  
+}
+
+html,body{ margin:0; padding:0; height:100%; width:100%; }
+
+
+#heading{
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 100px;
+  margin: auto;
+  width: 50%;
+  
+}
+
+#test{
+  margin: auto;
+  width: 50%;
+  color: red;
+  text-align: center;
+}
+
+#test_after{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  color: white;
+  font-size: 40px;
+  font-family:fantasy;
+  transition: all 3s ease-in; 
+ 
+}
+
+.css_on{
+ 
+  
+  
+}
+
+.table{
+  border-radius: 10px;
+
+  height: 100px;
+  width: 50px;
+  color: #FFFFFF;
+  background-color: black;
+  border: thick white;
+  margin: auto;
+  width: 50%;
+}
+
+th{
+  
+  text-align: center;
+  font-size: 50px;
+}
+
+table{
+  border-radius: 5px;
+  
+  width:70%; 
+  margin-left:15%; 
+  margin-right:15%;
+}
+
+#table2{
+  padding: 0%;
+  margin: 0%;
+}
+
+#test2_after{
+opacity: 0%;
+}
+
+
+
+
+.button{
+  
+  display: inline-block;
+border-radius: 5px;
+border: rgb(77, 3, 138) 5px solid;
+color: #FFFFFF;
+text-align: center;
+font-size: 20px;
+padding: 20px;
+width: 55px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+text-shadow: black;
+height: 25px;
+
+}
+
+.audio{
+  margin: auto;
+  width: 50%;
+}
+
+.lyrics{
+  width: 300px;
+  height: 300px;
+  overflow-y: scroll;
+  color: white;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  
+}
+
+audio{
+  margin-left: 2.5%;
+  margin-top: 1%;
+}
+
+.lookingglass{
+  margin-top: 5%;
+  background-color: black;
+  width: 500px;
+  height: 390px;
+  margin: auto;
+  width: 50%;
+  
+  transition: all 3s ease-in; 
+}
+
+td{
+  padding: 0%;
+}
+
+.summary{
+  
+  color: white;
+  width: 50%;
+  height: 10%;
+  font-size: 30px;
+  margin-bottom: 5%;
+}
+.summary h1{
+  text-decoration: underline;
+}
+
+.summary p{
+  
+  background-color: rgba(0, 0, 0, 0.411);
+}
+
+.button2{
+  
+display: inline-block;
+color: #FFFFFF;
+border-radius: 5px;
+border: rgb(77, 3, 138) 5px solid;
+text-align: center;
+font-size: 20px;
+padding: 10px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+text-shadow: black;
+height: 25px;
+
+margin-left: 75%;
+margin-right: 0%;
+}
+
+.button2:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.button2_after{
+  display: none;
+  visibility: hidden;
+}
+
+.background::-webkit-scrollbar{
+  display: none;
+}
+
+.animation {
+  animation: color-change 10s infinite;
+}
+
+@keyframes color-change {
+  0% { color:white; }
+  50% { color: teal }
+  100% { color:white }
+}
+
+.button span{
+  cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s; 
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* .button2 span{
+  cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s; 
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+} */
+
+
+.mystyle{
+  background: -webkit-linear-gradient(rgb(173, 30, 255), rgb(0, 145, 189));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mystyle2{
+  background: -webkit-linear-gradient(rgb(139, 18, 18), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mystyle3{
+  background: -webkit-linear-gradient(rgb(45, 134, 27), rgb(0, 135, 189));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.video2{
+  margin: auto;
+  width: 50%;
+  margin-top: 5%;
+  transition: 3s;
+  background-color: black;
+  margin-bottom: 10%;
+}
+
+
+.videobutton{
+  display: block;
+  margin: 0 auto;
+  margin-top: 5%;
+  border-radius: 50%;
+  font-size: 16px;
+  padding: 16px;
+  background-color: #555555;
+  color: white;
+}
+
+.video_text{
+  display: inline-block;
+  color: #FFFFFF;
+}
+
+
+
+
+
